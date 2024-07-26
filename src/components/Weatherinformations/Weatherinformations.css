@@ -1,0 +1,48 @@
+
+.weater-main {
+    padding-left:55px;
+}
+.location {
+    position: absolute;
+    top: 16px;
+    right: 26px;
+    color: hsl(243, 71%, 85%);
+
+    img { 
+        width: 14px;
+        height: 16px;
+        margin-right: 5px;
+         }
+}
+
+.weater-icon img { 
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 105px;
+    top: 130px;
+
+}
+.temp-C {
+    font-size: 100px;
+    width: 50%;
+    height: 50%;
+    color:aliceblue;
+    display: flex;
+    margin-top: -50px;
+
+    p {
+        margin-top: 20px;
+        margin-left: 8px;
+        font-size: 30px;
+        color:  hsl(243, 71%, 85%);
+    }
+}
+
+.description {
+    padding: 0;
+    margin-top: -10px;
+    margin-left: 6px;
+    font-size: 20px;
+    color:  hsl(243, 71%, 85%);
+}

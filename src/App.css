@@ -1,0 +1,56 @@
+
+.container-setcity {
+    margin: 10%;
+    display: grid;
+    place-content: center;
+    display: grid;
+    place-content: ;
+}
+.container-setcity button  {
+    width: 100px;
+    height: 30px;
+    background-color: #6d67d0;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.container-more-info {
+    background: url(./assets/images/temp-now.svg) no-repeat;
+    width: 480px;
+    height: 480px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+
+    /* padrão das seções
+    background: #6d67d0
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+     */
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+
+}
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 60%;
+    height: 50px;
+    max-width: 300px;
+}
+button {
+    background: #6d67d0;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    margin:10px 10px 10px 10px ;
+    width: 20%;
+    height: 50px;
+    max-width: 300px;
+    font-size: medium;
+}
