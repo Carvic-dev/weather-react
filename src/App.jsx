@@ -21,13 +21,13 @@ function App() {
 }
 
 return (
-  <div class='container-main'>
-    <div> <h1> Previsão do Tempo </h1>
+  <section class='setcity-main'>
+    <div class="entercity-info"> <h1> Previsão do Tempo </h1>
     <input ref={inputRef} type="text" placeholder='Digite o nome da cidade'/>
     <button onClick={searchCity}>Buscar</button></div>
 
-    <div class='container-more-info'>{ weather && <Weatherinformations weather={weather}/>}</div>
-  </div>
+    <div class='weater-main-info'>{ weather && <Weatherinformations weather={weather}/>}</div>
+  </section>
   )
 }
 

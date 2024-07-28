@@ -4,7 +4,7 @@ import './Weatherinformations.css'
 function Weatherinformations({ weather }) {
   console.log(weather)
   return (
-    <div class='weater-main'>
+    <section class="main-info">
       <h3 class='location'><img src="/src/assets/icons/location.svg" alt="icone pin" />{weather.name}</h3>
 
       <div class='weater-icon'>
@@ -25,7 +25,7 @@ function Weatherinformations({ weather }) {
         <div class='weater-info-03'>
         <p>Pressão: {weather.main.pressure} </p> </div>
       </div>
-    </div>
+    </section>
   );
 }
 
