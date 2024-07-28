@@ -3,6 +3,82 @@
     height: 480px;
     background: url(/src/assets/images/temp-now.svg);
     border-radius: 10px;
-    display: grid;
-    place-content: center;
+}
+
+h3 { 
+    padding: 15px;
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    color: #b6b3ff;
+}
+.weather-icon {
+display: flex;
+justify-content: center;
+height: 100px;
+margin-bottom: -35px ;
+
+}
+.temp-now-info .temp-C {
+    color:#fefefe;
+    font-size: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.temp-C .simbol {
+    display: flex;
+    padding-bottom:50px ;
+}
+
+.temp-now-info .description {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: #b6b3ff;
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+
+.temp-now-info p {
+    font-size: 25px
+}
+
+.weather-statics {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15px 0 15px;
+    gap: 15px;
+
+}
+
+.weather-info {
+    background:#6563925f;
+    color: white;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-info p {
+    font-size: 12px;
+    margin-left:10px;
+}
+
+.weather-info span {
+    font-size: 26px;
+    display: flex;
+}
+
+.weather-info span p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+
 }
