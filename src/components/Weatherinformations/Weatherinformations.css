@@ -17,6 +17,7 @@ display: flex;
 justify-content: center;
 height: 100px;
 margin-bottom: -35px ;
+padding-left: 20px;
 
 }
 .temp-now-info .temp-C {
@@ -25,6 +26,7 @@ margin-bottom: -35px ;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-left: 35px;
 } 
 
 .temp-C .simbol {
@@ -40,6 +42,7 @@ margin-bottom: -35px ;
     color: #b6b3ff;
     margin-top: -10px;
     text-transform: capitalize;
+    padding-left: 20px;
 }
 
 .temp-now-info p {

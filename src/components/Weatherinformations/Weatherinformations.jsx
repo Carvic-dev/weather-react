@@ -5,7 +5,7 @@ function Weatherinformations({ weather }) {
   return (
     <section class="main-info">
       <h3>
-        <img src="/src/assets/icons/pin.png" alt="icone pin" />
+        {/* <img src="/src/assets/icons/pin.png" alt="icone pin" /> */}
         {weather.name}
       </h3>
       <div class="temp-now-info">
